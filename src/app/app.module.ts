@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavigationComponent } from './navigation/navigation.component';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent
   ],
   imports: [
+    FlexLayoutModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule
